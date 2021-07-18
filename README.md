@@ -57,9 +57,9 @@ class MainActivity : AltruismNetwork() {
 }
 ```
 
-Override the following functions to do what you want
-onPositive - network active
-onNegative - network inactive
+Override the following functions to do what you want<br/>
+onPositive - network active <br/>
+onNegative - network inactive <br/>
 Hint - You dont have to override this if you only want to observe the network status
 
 ```
