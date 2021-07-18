@@ -48,8 +48,28 @@ dependency>
 ```
 
 ## How to use the library
+extend AltruismNetwork() class<br/>
+Example
 
 ```
+class MainActivity : AltruismNetwork() {
 
+}
+```
+
+Override the following functions to do what you want
+onPositive - network active
+onNegative - network inactive
+Hint - You dont have to override this if you only want to observe the network status
+
+```
+  override fun onPositive() {
+        super.onPositive()
+       
+    }
+    
+  override fun onNegative() {
+        super.onNegative()
+    }
 ```
 
