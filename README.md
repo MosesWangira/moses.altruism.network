@@ -17,7 +17,7 @@ allprojects {
 ```
 
 Add the dependency<br/>
-Previous Version is v1.0.0 
+Previous Version is v1.0.0 <br/>
 Current Version is v1.0.1 
 
 ```
@@ -49,7 +49,7 @@ dependency>
 ```
 
 ## How to use the library
-extend AltruismNetwork() class<br/>
+extend NetworkState() class<br/>
 Example
 
 ```
