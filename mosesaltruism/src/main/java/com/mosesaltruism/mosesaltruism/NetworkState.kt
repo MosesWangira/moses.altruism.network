@@ -11,7 +11,7 @@ import com.google.android.material.snackbar.Snackbar
  * Extend this activity whenever you want the activity to react to network status changes
  */
 @SuppressLint("Registered")
-open class AltruismNetwork : AppCompatActivity(),
+open class NetworkState : AppCompatActivity(),
     ConnectionStateMonitor.OnNetworkAvailableCallbacks {
 
     private var snackBar: CustomSnackBar? = null
@@ -20,7 +20,7 @@ open class AltruismNetwork : AppCompatActivity(),
 
     override fun onStart() {
         super.onStart()
-        snackBar.toString()
+        snackBar?.dismiss()
     }
 
     @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
