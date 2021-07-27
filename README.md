@@ -17,12 +17,9 @@ allprojects {
 ```
 
 Add the dependency<br/>
-Previous Version is v1.0.0 <br/>
-Current Version is v1.0.1 
-
 ```
 dependencies {
-    implementation 'com.github.MosesWangira:moses.altruism.network:v1.0.1'
+    implementation 'com.github.MosesWangira:moses.altruism.network:v1.0.2'
 }
 ```
 
