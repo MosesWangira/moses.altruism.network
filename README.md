@@ -19,7 +19,7 @@ allprojects {
 Add the dependency<br/>
 ```
 dependencies {
-    implementation 'com.github.MosesWangira:moses.altruism.network:v1.0.2'
+    implementation 'com.github.MosesWangira:moses.altruism.network:v1.0.3'
 }
 ```
 
@@ -67,6 +67,8 @@ class HomeFragment : NetworkStates() {
 Override the following functions to do what you want<br/>
 onPositive - network active <br/>
 onNegative - network inactive <br/>
+
+Hint : You do not need to override the functions if you only want to observe the network
 
 ```
   override fun onPositive() {
