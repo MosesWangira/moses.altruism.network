@@ -17,12 +17,9 @@ allprojects {
 ```
 
 Add the dependency<br/>
-Previous Version is v1.0.0 <br/>
-Current Version is v1.0.1 
-
 ```
 dependencies {
-    implementation 'com.github.MosesWangira:moses.altruism.network:v1.0.1'
+    implementation 'com.github.MosesWangira:moses.altruism.network:v1.0.2'
 }
 ```
 
@@ -49,7 +46,7 @@ dependency>
 ```
 
 ## How to use the library
-extend NetworkState() class<br/>
+extend NetworkState() class //for activity<br/>
 Example
 
 ```
@@ -58,10 +55,18 @@ class MainActivity : NetworkState() {
 }
 ```
 
+extend NetworkStates() class //for fragments<br/>
+Example
+
+```
+class HomeFragment : NetworkStates() {
+
+}
+```
+
 Override the following functions to do what you want<br/>
 onPositive - network active <br/>
 onNegative - network inactive <br/>
-Hint - You dont have to override this if you only want to observe the network status
 
 ```
   override fun onPositive() {
