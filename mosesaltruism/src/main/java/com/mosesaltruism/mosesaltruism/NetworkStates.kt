@@ -7,7 +7,7 @@ import androidx.fragment.app.Fragment
 import com.google.android.material.snackbar.Snackbar
 
 
-class NetworkStates : Fragment(), ConnectionStateMonitor.OnNetworkAvailableCallbacks {
+open class NetworkStates : Fragment(), ConnectionStateMonitor.OnNetworkAvailableCallbacks {
 
     private var snackBar: CustomSnackBar? = null
     private var connectionStateMonitor: ConnectionStateMonitor? = null
