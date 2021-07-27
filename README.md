@@ -59,7 +59,7 @@ extend NetworkStates() class //for fragments<br/>
 Example
 
 ```
-class MainActivity : NetworkState() {
+class HomeFragment : NetworkStates() {
 
 }
 ```
