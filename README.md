@@ -46,7 +46,16 @@ dependency>
 ```
 
 ## How to use the library
-extend NetworkState() class<br/>
+extend NetworkState() class //for activity<br/>
+Example
+
+```
+class MainActivity : NetworkState() {
+
+}
+```
+
+extend NetworkStates() class //for fragments<br/>
 Example
 
 ```
