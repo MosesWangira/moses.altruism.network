@@ -17,11 +17,12 @@ allprojects {
 ```
 
 Add the dependency<br/>
-Current Version is v1.0.0 (Make sure to check if its the current version)
+Previous Version is v1.0.0 <br/>
+Current Version is v1.0.1 
 
 ```
 dependencies {
-    implementation 'com.github.MosesWangira:moses.altruism.network:v1.0.0'
+    implementation 'com.github.MosesWangira:moses.altruism.network:v1.0.1'
 }
 ```
 
@@ -48,11 +49,11 @@ dependency>
 ```
 
 ## How to use the library
-extend AltruismNetwork() class<br/>
+extend NetworkState() class<br/>
 Example
 
 ```
-class MainActivity : AltruismNetwork() {
+class MainActivity : NetworkState() {
 
 }
 ```
